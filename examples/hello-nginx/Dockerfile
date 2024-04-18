@@ -1,7 +1,7 @@
 FROM openresty/openresty:jammy
 
 # {{ x-release-please-start-version }}
-ARG VERSION=2.1.0
+ARG VERSION=3.0.0
 # {{ x-release-please-end }}
 
 RUN apt-get update && apt-get install -y \
