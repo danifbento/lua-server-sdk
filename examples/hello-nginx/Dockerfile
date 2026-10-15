@@ -4,7 +4,7 @@
 FROM openresty/openresty:1.21.4.1-0-jammy
 
 # {{ x-release-please-start-version }}
-ARG VERSION=2.2.0
+ARG VERSION=3.0.0
 # {{ x-release-please-end }}
 
 ARG CPP_SDK_VERSION=3.13.1
